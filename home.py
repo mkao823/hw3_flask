@@ -5,15 +5,22 @@ myapp_obj = Flask(__name__)
 
 @myapp_obj.route('/')
 def home():
-    name = 'username'
+    name = 'Lisa'
     city_names = ['city']
     return f'''
     <html>
-    <h1>Welcome {name}</h1>
-        <h2>
+    <head>
+        <h1>Welcome {name}!</h1>
+    </head>
+    <body>
+        <p>
             <a href="https://www.google.com/">not google</a>
-        </h2>    
-
+        </p>    
+            <p1>
+                for city in city_names
+                    print(city)
+            </p1>
+    </body>
     </html>
     '''
 
