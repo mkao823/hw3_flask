@@ -16,7 +16,7 @@ def home():
         <h1>Welcome """ + name + """!</h1>
     </head>
     <body>
-        <a href="https://www.google.com/">not google</a>
+        <a href="www.google.com">not google</a>
         <ul>"""
     for city in city_names:
         output += f"<li>{city}</li>\n"
